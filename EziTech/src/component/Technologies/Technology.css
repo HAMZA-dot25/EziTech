@@ -1,0 +1,33 @@
+.technolpogy{
+    margin: 90px;
+    text-align: center;
+}
+
+.technologyIcons{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+.gridItem{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px 3px gray;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.gridItem img{
+    padding: 5px;
+}
+.gridItem h5{
+    padding-top: 15px;
+    font-size: 16px;
+
+}
+
+.gridItem:hover{
+    transform: translateY(-5px);
+}

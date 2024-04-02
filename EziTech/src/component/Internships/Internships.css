@@ -1,0 +1,100 @@
+.internships{
+    text-align: center;
+}
+
+.cardItems{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+.intercards{
+    width: 300px;
+    height: 415px;
+    margin: 30px 65px;
+    box-shadow: 2px 2px 4px 2px gray;
+    border-radius: 30px;
+    transition: trasform 0.3s ease-out;
+}
+.intercards:hover{
+    transform: translateY(-50px);
+}
+.intercards img{
+
+}
+.cardHeader{
+    
+}
+.cardName{
+    position: relative;
+    display: inline-block;
+}
+.imageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 20px;
+}
+.imageTextP{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+.imageText h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.imageText p{
+    margin-top: 170px;
+}
+.headerImage{
+    width: 300px;
+    height: 160px;
+    border-radius: 30px;
+}
+.develmentImg{
+    margin-left: 30px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.cardDescription span{
+    background-color: rgb(221, 247, 247);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.employment{
+    
+    align-items: center;
+}
+.iconBorder{
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.readBtn{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 8px;
+    margin-left: 0px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+}
+.cardName hr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    margin-top: 98px;
+    padding-top: 30px;
+    padding-left: 175px;
+    opacity: 0.9;
+}

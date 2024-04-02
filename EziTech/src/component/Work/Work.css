@@ -1,0 +1,14 @@
+.modules{
+    margin: 40px 60px;
+}
+
+
+.modules div{
+    text-align: center;
+}
+.imgeSize img{
+    height: 190px;
+}
+.modules div h4{
+    margin-top: 30px;
+}

@@ -1,0 +1,56 @@
+.courses{
+    text-align: center;
+}
+.flexItems{
+    
+    margin-top: 40px;
+     
+}
+.items{
+    padding: 15px;
+}
+
+.courseDescription{
+    padding: 10px;
+}
+.courseDescription span{
+    display: block;
+    text-align: left;
+    color: gray;
+    font-size: 11px;
+}
+.durationView{
+    background-color: rgb(204, 199, 199);
+    border-radius: 6px;
+    height: 40px;
+    align-items: center;
+    padding: 4px;
+    
+}
+.durationView span{
+    color: black;
+    font-size: 14px;
+    
+}
+.borderLine{
+    width: 20px;
+    border-bottom: 2px dotted red;
+}
+
+.flexItems img{
+    height: 200px;
+    width: 200px;
+}
+.flexItems p{
+    
+    font-size: 12px;
+    color: gray;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    
+}

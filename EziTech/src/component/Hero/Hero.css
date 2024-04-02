@@ -1,0 +1,59 @@
+.hero{
+    width: 100%;
+    text-align: center;
+}
+.herocontent{
+    display: inline-block;
+    margin-top: 70px;
+}
+.herocontent h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+
+}
+.herocontent h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-weight: 700;
+    color: white;
+    font-size: 35px;
+}
+.herocontent input{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    height: 50px;
+    width: 390px;
+    border-radius: 9PX;
+
+}
+.herocontent p{
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.logoes{
+    justify-content: center;
+
+}
+ 
+.codeImg{
+    margin-top: -23px;
+    
+    height: 230px;
+    width: 280px;  
+}
+.posImg{
+    margin-top: 79px;
+    margin-left: 70px;
+    height: 59px;
+    width: 280px;  
+}
+.blogImg{
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 80px;
+    width: 280px;
+}
